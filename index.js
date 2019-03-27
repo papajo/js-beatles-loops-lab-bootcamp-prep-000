@@ -22,10 +22,9 @@ function iLoveTheBeatles(num) {
   let arr = []
   let i = 0
   do {
-    i++;
     arr[i] = "I love the Beatles!";
-    
-  } while (i == 15 - num)
+    i++
+  } while (i < 15 - num)
   return arr
 }
 
